@@ -1,0 +1,9 @@
+C:\Workspace\vadiaar\AWS-Samples\S3NetCoreClient\S3NetCoreClient.Models\bin\Debug\netcoreapp2.0\S3NetCoreClient.Models.deps.json
+C:\Workspace\vadiaar\AWS-Samples\S3NetCoreClient\S3NetCoreClient.Models\bin\Debug\netcoreapp2.0\S3NetCoreClient.Models.dll
+C:\Workspace\vadiaar\AWS-Samples\S3NetCoreClient\S3NetCoreClient.Models\bin\Debug\netcoreapp2.0\S3NetCoreClient.Models.pdb
+C:\Workspace\vadiaar\AWS-Samples\S3NetCoreClient\S3NetCoreClient.Models\obj\Debug\netcoreapp2.0\S3NetCoreClient.Models.csprojResolveAssemblyReference.cache
+C:\Workspace\vadiaar\AWS-Samples\S3NetCoreClient\S3NetCoreClient.Models\obj\Debug\netcoreapp2.0\S3NetCoreClient.Models.csproj.CoreCompileInputs.cache
+C:\Workspace\vadiaar\AWS-Samples\S3NetCoreClient\S3NetCoreClient.Models\obj\Debug\netcoreapp2.0\S3NetCoreClient.Models.AssemblyInfoInputs.cache
+C:\Workspace\vadiaar\AWS-Samples\S3NetCoreClient\S3NetCoreClient.Models\obj\Debug\netcoreapp2.0\S3NetCoreClient.Models.AssemblyInfo.cs
+C:\Workspace\vadiaar\AWS-Samples\S3NetCoreClient\S3NetCoreClient.Models\obj\Debug\netcoreapp2.0\S3NetCoreClient.Models.dll
+C:\Workspace\vadiaar\AWS-Samples\S3NetCoreClient\S3NetCoreClient.Models\obj\Debug\netcoreapp2.0\S3NetCoreClient.Models.pdb

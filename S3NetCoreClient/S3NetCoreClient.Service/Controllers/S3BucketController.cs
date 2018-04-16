@@ -1,25 +1,31 @@
 ﻿using Amazon.S3;
 using Amazon.S3.Model;
+using log4net;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace S3NetCoreClient.Service.Controllers
 {
-    [Route("api/[controller]")]
-    public class S3BucketController : Controller
+    [Produces("application/json")]
+    [Route("api/s3bucket")]
+    public class S3BucketController : S3ControllerBase
     {
-        private IAmazonS3 _s3Client;
+        #region Constructor
 
-        public S3BucketController(IAmazonS3 client)
+        public S3BucketController(IAmazonS3 client) : base(client)
         {
-            this._s3Client = client;
+            Log = LogManager.GetLogger(GetType());
         }
 
-        // GET api/values
+        #endregion Constructor
+
+        #region Actions
+
         [HttpGet]
-        public IEnumerable<S3Bucket> GetAsync()
+        public async Task<IEnumerable<S3Bucket>> GetAsync()
         {
-            ListBucketsResponse listBucketsResponse = await _s3Client.ListBucketsAsync();
+            ListBucketsResponse listBucketsResponse = await S3Client.ListBucketsAsync();
             return listBucketsResponse.Buckets;
         }
 
@@ -47,5 +53,7 @@ namespace S3NetCoreClient.Service.Controllers
         public void Delete(int id)
         {
         }
+
+        #endregion Actions
     }
 }

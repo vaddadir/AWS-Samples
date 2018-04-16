@@ -7,11 +7,20 @@
 
   <ItemGroup>
     <PackageReference Include="AWSSDK.S3" Version="3.3.18" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\S3NetCoreClient.Models\S3NetCoreClient.Models.csproj" />
+    <ProjectReference Include="..\S3NetCoreClient.Service\S3NetCoreClient.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\10.0.1\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>System</HintPath>
     </Reference>
   </ItemGroup>
 
